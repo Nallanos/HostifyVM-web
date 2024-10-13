@@ -25,7 +25,7 @@ export function ContactForm() {
         <label htmlFor="email" className="block text-sm font-semibold mb-2">
           Email
         </label>
-        <Input
+        <input
           id="email"
           type="email"
           name="email"

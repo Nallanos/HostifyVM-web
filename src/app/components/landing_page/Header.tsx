@@ -7,7 +7,8 @@ export function Header() {
         <Image
           src="/images/HostifyVmLogo.png"
           alt="HostifyVM logo"
-          className="size-16"
+          width={60}
+          height={60}
         />
         <h1 className="text-2xl font-cedora font-bold">HostifyVM</h1>
       </div>

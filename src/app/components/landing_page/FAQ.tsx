@@ -64,7 +64,7 @@ export function FAQ() {
             </AccordionTrigger>
             <AccordionContent className="text-lg text-gray-300">
               Not necessarily! While HostifyVM uses Ansible under the hood,
-              we’ve simplified the process so that users without deep technical
+              we have simplified the process so that users without deep technical
               knowledge can still deploy their applications effortlessly.
             </AccordionContent>
           </AccordionItem>

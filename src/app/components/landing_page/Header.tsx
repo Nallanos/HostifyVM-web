@@ -1,9 +1,10 @@
 import { Button } from "$/components/ui/button";
+import Image from "next/image";
 export function Header() {
   return (
     <header className="flex items-center justify-evenly w-full">
       <div className="flex items-center">
-        <img
+        <Image
           src="/images/HostifyVmLogo.png"
           alt="HostifyVM logo"
           className="size-16"

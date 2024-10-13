@@ -3,7 +3,6 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { Input } from "$/components/ui/input";
 import { Button } from "$/components/ui/button";
-import { Textarea } from "$/components/ui/textarea";
 
 export function ContactForm() {
   const [state, handleSubmit] = useForm("xdkooaqe");

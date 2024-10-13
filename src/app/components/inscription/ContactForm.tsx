@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
-import { Input } from "$/components/ui/input";
 import { Button } from "$/components/ui/button";
 
 export function ContactForm() {

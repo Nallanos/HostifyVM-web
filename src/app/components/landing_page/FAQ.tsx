@@ -18,7 +18,6 @@ export function FAQ() {
             Frequently Asked Questions
           </h2>
 
-          {/* Question 1 */}
           <AccordionItem value="item-1">
             <AccordionTrigger className="text-xl font-semibold">
               What is HostifyVM and how does it work?
@@ -51,9 +50,9 @@ export function FAQ() {
             </AccordionTrigger>
             <AccordionContent className="text-lg text-gray-300">
               Unlike traditional cloud platforms, HostifyVM gives you full
-              control over your infrastructure and code. You don't have to worry
-              about vendor lock-in, and you can deploy directly to your virtual
-              machines, retaining control over your resources.
+              control over your infrastructure and code. You do not have to
+              worry about vendor lock-in, and you can deploy directly to your
+              virtual machines, retaining control over your resources.
             </AccordionContent>
           </AccordionItem>
 
@@ -63,8 +62,8 @@ export function FAQ() {
               Do I need to know Ansible to use HostifyVM?
             </AccordionTrigger>
             <AccordionContent className="text-lg text-gray-300">
-              Not necessarily! While HostifyVM uses Ansible under the hood,
-              we have simplified the process so that users without deep technical
+              Not necessarily! While HostifyVM uses Ansible under the hood, we
+              have simplified the process so that users without deep technical
               knowledge can still deploy their applications effortlessly.
             </AccordionContent>
           </AccordionItem>

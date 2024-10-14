@@ -28,7 +28,7 @@ export function ContactForm() {
           id="email"
           type="email"
           name="email"
-          className="border border-gray-700 my-4 bg-gray-900 text-white p-3 rounded-lg shadow-inner focus:ring-2 focus:ring-blue-500"
+          className="border border-gray-700 my-4 bg-gray-900 text-white p-3 rounded-lg shadow-inner focus:ring-2 focus:ring-blue-500 w-full"
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
 
